@@ -1,0 +1,77 @@
+/* Reset de estilos para normalizar la apariencia en diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c34;
+    color: #fff;
+}
+
+header {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    color: #61dafb;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.8em 1.5em;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 1.5em 0;
+    padding: 2em;
+    color: #333;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+/* Estilos adicionales para la galería de imágenes */
+#galeria {
+    background-color: #282c34;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0.5em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.2);
+}
